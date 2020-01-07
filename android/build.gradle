@@ -85,6 +85,4 @@ dependencies {
   implementation "androidx.exifinterface:exifinterface:1.0.0"
   implementation "androidx.annotation:annotation:1.0.0"
   implementation "androidx.legacy:legacy-support-v4:1.0.0"
-  mlkitImplementation "com.google.firebase:firebase-ml-vision:${safeExtGet('firebase-ml-vision', '19.0.3')}"
-  mlkitImplementation "com.google.firebase:firebase-ml-vision-face-model:${safeExtGet('firebase-ml-vision-face-model', '11.8.0')}"
 }
